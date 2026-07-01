@@ -107,3 +107,61 @@ p{
   border-radius:25px;
   box-shadow:0 0 40px rgba(0,180,255,0.3);
 }
+
+/* ===========================
+   PROPUESTA
+=========================== */
+
+.propuesta-section{
+    margin: 120px auto;
+    width: 90%;
+    max-width: 1400px;
+    text-align: center;
+}
+
+.propuesta-titulo{
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.propuesta-texto{
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: rgba(255,255,255,.75);
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.propuesta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.propuesta-img{
+
+    width: 100%;
+    max-width: 1300px;
+
+    border-radius: 25px;
+
+    border: 1px solid rgba(0,180,255,.18);
+
+    box-shadow:
+        0 15px 60px rgba(0,0,0,.55),
+        0 0 50px rgba(0,170,255,.18);
+
+    transition: .45s ease;
+}
+
+.propuesta-img:hover{
+
+    transform: scale(1.02);
+
+    box-shadow:
+        0 20px 70px rgba(0,0,0,.60),
+        0 0 70px rgba(0,170,255,.30);
+
+}
