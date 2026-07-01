@@ -155,13 +155,3 @@ p{
 
     transition: .45s ease;
 }
-
-.propuesta-img:hover{
-
-    transform: scale(1.02);
-
-    box-shadow:
-        0 20px 70px rgba(0,0,0,.60),
-        0 0 70px rgba(0,170,255,.30);
-
-}
