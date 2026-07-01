@@ -169,8 +169,3 @@ p{
     box-shadow: 0 0 20px rgba(0,150,255,0.25);
     transition: .3s;
 }
-
-.video-row img:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 35px rgba(0,180,255,.4);
-}
